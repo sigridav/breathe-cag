@@ -1,0 +1,30 @@
+# Aldri data i dette repoet
+data/
+raw/
+derived/
+output/
+results/
+*.csv
+!**/registry-linkage/*variables*.csv
+*.tsv
+*.dta
+*.sav
+*.sas7bdat
+*.rds
+*.RData
+*.rda
+*.parquet
+*.feather
+*.xlsx
+*.xls
+*.sqlite
+*.db
+*.log
+
+# Systemfiler
+.DS_Store
+Thumbs.db
+~$*
+.Rhistory
+.ipynb_checkpoints/
+__pycache__/
