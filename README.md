@@ -13,7 +13,6 @@ projects/
     protocol/           Forskningsprotokoll (sporede endringer, ren versjon, markdown)
     rek/                Søknader og endringsmeldinger til REK
     analysis-plans/     Forhåndsregistrerte analyseplaner per delstudie
-
     scripts/            Analysekode
 templates/              Maler som går igjen på tvers av prosjekter
 ```
