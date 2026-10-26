@@ -1,114 +1,113 @@
-# Analyseplan: NLR × eosinofiler og prognose i HUNT4
+# Analysis plan: NLR × eosinophils and prognosis in HUNT4
 
-Versjon: 26.10.2026 · Sigrid Vikjord
+Version: 26.10.2026 · Sigrid Vikjord
 
-## Mål
+## Aims
 
-Studien har to likestilte hovedspørsmål, begge besvart i HUNT4 med registeroppfølging.
+The study has two equally weighted primary questions, both answered in HUNT4 with registry follow-up.
 
-1. **Prognose ved kols:** Predikerer NLR og blodeosinofiler, hver for seg og i samspill, alvorlige eksaserbasjoner og død hos personer med kols, utover etablerte prediktorer inkludert CAT og mMRC?
-2. **Kolsspesifisitet:** Er sammenhengene sterkere hos personer med kols enn hos personer med normal spirometri, og sterkere for respiratoriske enn for kardiovaskulære utfall?
+1. **Prognosis in COPD:** Do the neutrophil-to-lymphocyte ratio (NLR) and blood eosinophils, separately and in interaction, predict severe exacerbations and death in people with COPD, beyond established predictors including CAT and mMRC?
+2. **COPD specificity:** Are the associations stronger in people with COPD than in people with normal spirometry, and stronger for respiratory than for cardiovascular outcomes?
 
-Den kliniske påstanden studien kan underbygge, er at en rutinemessig differensialtelling gir prognostisk informasjon som symptomer og lungefunksjon ikke fanger.
+The clinical claim the study can support is that a routine leukocyte differential count gives prognostic information that symptoms and lung function do not capture.
 
-## Studiepopulasjon
+## Study population
 
-Utgangspunktet er deltakere i HUNT4 (2017–19) med pre-BD spirometri og differensialtelling, rundt 15 000 personer. Hovedanalysen sammenligner to grupper; øvrige spirometrimønstre holdes utenfor.
+Participants in HUNT4 (2017–19) with pre-bronchodilator spirometry and a leukocyte differential count, approximately 15,000 people. The main analysis compares two groups; other spirometry patterns are kept outside.
 
-| Gruppe | Definisjon | Rolle |
+| Group | Definition | Role |
 | --- | --- | --- |
-| Kols | FEV1/FVC < LLN (GLI, pre-BD) og luftveissymptomer (daglig hoste i perioder, hoste med oppspytt eller pipelyder siste 12 mnd) eller legediagnostisert kols/emfysem | Hovedgruppe, spørsmål 1 og 2 |
-| Normal spirometri | FEV1/FVC, FEV1 og FVC alle ≥ LLN | Sammenligning, spørsmål 2 |
-| Obstruksjon uten symptomer eller diagnose | FEV1/FVC < LLN, verken symptomer eller diagnose | Utenfor hovedanalysen |
-| PRISm | FEV1/FVC ≥ LLN, men FEV1 < LLN | Utenfor hovedanalysen |
+| COPD | FEV1/FVC < LLN (GLI, pre-BD) and respiratory symptoms (daily cough for periods, productive cough or wheeze in the last 12 months) or physician-diagnosed COPD/emphysema | Main group, questions 1 and 2 |
+| Normal spirometry | FEV1/FVC, FEV1 and FVC all ≥ LLN | Comparison, question 2 |
+| Obstruction without symptoms or diagnosis | FEV1/FVC < LLN, neither symptoms nor diagnosis | Outside the main analysis |
+| PRISm | FEV1/FVC ≥ LLN but FEV1 < LLN | Outside the main analysis |
 
-Astma beholdes i begge grupper og justeres for. Personer uten spirometri av akseptabel kvalitet eller uten fullstendig differensialtelling ekskluderes. Antallet med kols etter denne definisjonen må telles opp; rundt 4000 er et anslag.
+Participants with asthma are kept in both groups and adjusted for. Participants without spirometry of acceptable quality or without a complete differential count are excluded. The number with COPD under this definition must be counted; approximately 4,000 is an estimate.
 
-Personer som oppgir luftveisinfeksjon på undersøkelsesdagen, eller som har brukt kortisontabletter daglig de siste 3 månedene, ekskluderes fra hovedanalysen. Begge påvirker NLR og eosinofiltall direkte.
+Participants reporting a respiratory infection on the day of examination, or daily use of oral corticosteroids in the last 3 months, are excluded from the main analysis. Both directly affect NLR and eosinophil counts.
 
-## Eksponering
+## Exposure
 
-NLR (nøytrofile/lymfocytter) og absolutt eosinofiltall (celler/µL) fra samme blodprøve, modellert på to likestilte måter.
+NLR (neutrophils/lymphocytes) and absolute eosinophil count (cells/µL) from the same blood sample, modelled in two equally weighted ways.
 
-- **Kontinuerlig samspill:** log-NLR og eosinofiler som restricted cubic splines, med et tensorprodukt-samspill. Resultatet presenteres som risikooverflater (konturplott), slik at en eventuell «balansert sone» kan identifiseres direkte.
-- **2×2-fenotyper:** høy/lav NLR × høy/lav eos, for klinisk tolkning. Forslag til a priori-grenser: eos ≥ 300 celler/µL (GOLD) og NLR ≥ 3. Gruppemedianer i kolsgruppen brukes som sensitivitetsanalyse.
+- **Continuous interaction:** log-NLR and eosinophils as restricted cubic splines with a tensor-product interaction. Results are presented as risk surfaces (contour plots), so that any "balanced zone" can be identified directly.
+- **2×2 phenotypes:** high/low NLR × high/low eosinophils, for clinical interpretation. Proposed a priori cut-offs: eosinophils ≥ 300 cells/µL (GOLD) and NLR ≥ 3. Group medians in the COPD group are used as a sensitivity analysis.
 
-Grensene bør låses før utfallsdataene analyseres.
+Cut-offs should be locked before outcome data are analysed.
 
-## Utfall og oppfølging
+## Outcomes and follow-up
 
-To separate utfallsfamilier, begge fra register. Død og alvorlige eksaserbasjoner rapporteres som likestilte hovedutfall.
+Two separate outcome families, both from registries. Death and severe exacerbations are reported as equally weighted primary outcomes.
 
-| Utfall | Definisjon | Kilde |
+| Outcome | Definition | Source |
 | --- | --- | --- |
-| Alvorlig eksaserbasjon | Første innleggelse med kols (J44) som hoveddiagnose | NPR |
-| Død, alle årsaker | All død | Dødsårsaksregisteret |
-| Respiratorisk død | Underliggende dødsårsak J00–J99 | Dødsårsaksregisteret |
-| Kardiovaskulær død | Underliggende dødsårsak I00–I99 | Dødsårsaksregisteret |
+| Severe exacerbation | First hospitalisation with COPD (J44) as main diagnosis | Norwegian Patient Registry (NPR) |
+| All-cause death | All deaths | Cause of Death Registry |
+| Respiratory death | Underlying cause of death J00–J99 | Cause of Death Registry |
+| Cardiovascular death | Underlying cause of death I00–I99 | Cause of Death Registry |
 
-Kardiovaskulær død fungerer også som spesifisitetskontroll: et kolsspesifikt signal bør være sterkere for respiratoriske enn for kardiovaskulære utfall. Oppfølgingen løper fra deltakelsesdato i HUNT4 til hendelse, død, utflytting eller slutt på registerdata. Med dagens kobling slutter Dødsårsaksregisteret 31.12.2021, altså bare 2–4,5 års oppfølging for død. En oppdatert utlevering fra DÅR bør bestilles før analysen. NPR-utleveringen har inndato, men ikke utdato eller omsorgsnivå, så innleggelser kan ennå ikke skilles fra polikliniske kontakter.
+Cardiovascular death also serves as a specificity check: a COPD-specific signal should be stronger for respiratory than for cardiovascular outcomes. Follow-up runs from the HUNT4 participation date to event, death, emigration or end of registry data. With the current linkage, Cause of Death Registry data end on 31.12.2021, giving only 2–4.5 years of follow-up for death. An updated extract should be requested before the analysis. The current NPR extract has admission date but not discharge date or level of care, so hospitalisations cannot yet be distinguished from outpatient contacts.
 
-## Kovariater
+## Covariates
 
-Modellene bygges i tre trinn, slik at assosiasjon og tilleggsverdi kan skilles.
+Models are built in three steps so that association and added value can be separated.
 
-| Modell | Innhold | Formål |
+| Model | Content | Purpose |
 | --- | --- | --- |
-| 1 | Alder, kjønn | Grunnleggende assosiasjon |
-| 2 | Modell 1 + røyking (status og pakkeår), BMI, FEV1 % pred, CRP, komorbiditet (hjerte-kar, diabetes, kreft, nyre, autoimmun sykdom), astma, atopi (allergi/høysnue), inhalasjonsmedisiner etter klasse | Justert assosiasjon |
-| Basismodell for prediksjon | Alder, kjønn, røyking, BMI, FEV1 % pred, CAT, mMRC, komorbiditet, Charlson-indeks (NPR), tidligere kolsinnleggelser i NPR fra 2008, selvrapporterte eksaserbasjoner siste 12 mnd | Måle hva NLR og eos tilfører |
+| 1 | Age, sex | Basic association |
+| 2 | Model 1 + smoking (status and pack-years), BMI, FEV1 % predicted, CRP, comorbidity (cardiovascular disease, diabetes, cancer, kidney disease, autoimmune disease), asthma, atopy (allergy/hay fever), inhaled medication by class | Adjusted association |
+| Base model for prediction | Age, sex, smoking, BMI, FEV1 % predicted, CAT, mMRC, comorbidity, Charlson index (NPR), previous COPD hospitalisations in NPR since 2008, self-reported exacerbations in the last 12 months | Measure what NLR and eosinophils add |
 
-Lungeskjemaet skiller inhalatorer etter klasse, så ICS/LABA-kombinasjoner kan justeres for. Det er viktig fordi ICS senker eosinofiltallet. ICS-monoterapi står ikke på listen, så noe ICS-bruk kan bli feilklassifisert. Trippelinhalatorer var ikke på markedet under HUNT4.
+The HUNT4 Lung questionnaire records inhalers by class, so ICS/LABA combinations can be adjusted for. This matters because ICS lowers the eosinophil count. ICS monotherapy is not listed, so some ICS use may be misclassified. Triple inhalers were not on the market during HUNT4.
 
-CAT og mMRC besvares bare av dem med astma, kols eller pustebesvær. Hos symptomfrie mangler de altså strukturelt og bør ikke imputeres som vanlig manglende data.
+CAT and mMRC were answered only by participants with asthma, COPD or breathlessness. In symptom-free participants they are therefore structurally missing and should not be imputed as ordinary missing data.
 
-## Statistisk analyse
+## Statistical analysis
 
-Analysen tar først for seg prognose innen kols, deretter kolsspesifisitet i hele utvalget.
+The analysis first addresses prognosis within COPD, then COPD specificity in the full sample.
 
-**Spørsmål 1 – prognose innen kols**
+**Question 1 – prognosis within COPD**
 
-- Død av alle årsaker: Cox-regresjon.
-- Eksaserbasjon, respiratorisk og kardiovaskulær død: årsaksspesifikk Cox, med Fine-Gray (konkurrerende risiko) som supplement.
-- Samspill NLR × eos testes med likelihood ratio-test av tensorleddet. Proporsjonale hasarder sjekkes med Schoenfeld-residualer.
-- Tilleggsverdi måles mot basismodellen: ΔC (Harrell og tidsavhengig AUC ved 5 år), kontinuerlig NRI, kalibrering og decision curve-analyse.
-- Intern validering med bootstrap (≥ 200 replikater) og optimisme-korreksjon.
+- All-cause death: Cox regression.
+- Exacerbation, respiratory and cardiovascular death: cause-specific Cox, with Fine-Gray (competing risks) as a supplement.
+- The NLR × eosinophil interaction is tested with a likelihood ratio test of the tensor term. Proportional hazards are checked with Schoenfeld residuals.
+- Added value is measured against the base model: ΔC (Harrell's C and time-dependent AUC at 5 years), continuous NRI, calibration and decision curve analysis.
+- Internal validation by bootstrapping (≥ 200 replicates) with optimism correction.
 
-**Spørsmål 2 – kolsspesifisitet**
+**Question 2 – COPD specificity**
 
-- Hele utvalget (kols + normal spirometri) med tre-veis samspill NLR × eos × gruppe, eller stratifiserte modeller med heterogenitetstest.
-- HR rapporteres per gruppe og per dødsårsak, slik at respiratoriske og kardiovaskulære utfall kan sammenlignes direkte.
+- Full sample (COPD + normal spirometry) with a three-way interaction NLR × eosinophils × group, or stratified models with a test for heterogeneity.
+- Hazard ratios are reported per group and per cause of death, so that respiratory and cardiovascular outcomes can be compared directly.
 
-Manglende kovariater håndteres med multippel imputasjon; eksponeringen imputeres ikke.
+Missing covariates are handled by multiple imputation; the exposure is not imputed.
 
-## Sensitivitetsanalyser
+## Sensitivity analyses
 
-Hver analyse tester én bestemt svakhet ved hoveddesignet.
+Each analysis tests one specific weakness of the main design.
 
-| Analyse | Svakhet som testes |
+| Analysis | Weakness tested |
 | --- | --- |
-| Kols definert som FEV1/FVC < 0,70 | Valg av kolsdefinisjon |
-| Ekskluder personer med astma | Feilklassifisering ved pre-BD spirometri |
-| Ekskluder CRP > 10 mg/L | Subklinisk infeksjon ved prøvetaking |
-| Ekskluder første oppfølgingsår | Omvendt kausalitet |
-| NLR- og eos-grenser satt ved median | Valg av cut-off |
-| Alle respiratoriske innleggelser (J00–J99) | Smal definisjon av eksaserbasjon |
-| Gjentatte innleggelser (Andersen-Gill eller negativ binomial) | Bare første hendelse brukes |
-| Stratifisert på bruk av ICS-holdige inhalatorer | Effekt av ICS på eosinofiltall |
-| Ekskluder bruk av kortisonsprøyte siste 12 mnd | Steroideffekt på blodbildet |
-| PRISm og asymptomatisk obstruksjon som egne grupper (eksplorativt) | Grupper holdt utenfor hovedanalysen |
+| COPD defined as FEV1/FVC < 0.70 | Choice of COPD definition |
+| Exclude participants with asthma | Misclassification with pre-BD spirometry |
+| Exclude CRP > 10 mg/L | Subclinical infection at sampling |
+| Exclude the first year of follow-up | Reverse causation |
+| NLR and eosinophil cut-offs set at the median | Choice of cut-off |
+| All respiratory hospitalisations (J00–J99) | Narrow exacerbation definition |
+| Recurrent hospitalisations (Andersen-Gill or negative binomial) | Only the first event is used |
+| Stratified by use of ICS-containing inhalers | Effect of ICS on eosinophil count |
+| Exclude corticosteroid injections in the last 12 months | Steroid effect on blood counts |
+| PRISm and asymptomatic obstruction as separate groups (exploratory) | Groups kept outside the main analysis |
 
-## Åpne punkter
+## Open issues
 
-Disse må avklares før analysen starter.
+To be resolved before the analysis starts.
 
-- [x] NPR-data fra før HUNT4 finnes (fra 2008), og Charlson-indeks er koblet på.
-- [ ] Bestill oppdatert utlevering fra Dødsårsaksregisteret (dagens kobling slutter 31.12.2021).
-- [ ] Få utdato og omsorgsnivå (døgn, dag, poliklinikk) fra NPR, og avklar sluttdato for NPR-dataene.
-- [ ] Utflyttingsdato fra Folkeregisteret for sensurering.
-- [ ] Ble skip-logikken for CAT og mMRC fulgt i praksis, og hvor mange i normalgruppen har svart?
-- [ ] Lås a priori-grensene for NLR og eos.
-- [ ] Tell antall hendelser per utfall i kolsgruppen, for å vurdere hvor mange parametre modellene tåler.
-- [ ] Ekstern validering: er OLIN aktuelt?
-
-- [ ] Endringsmelding til REK (søknad 96306): forlenget sluttdato, nytt delprosjekt om NLR × eos og prognose, Legemiddelregisteret, NPR utvidet til alle diagnoser, og Dødsårsaksregisteret oppført eksplisitt.
+- [x] NPR data from before HUNT4 are available (from 2008), and the Charlson index is linked.
+- [x] Amendment to REK (96306) submitted 26.10.2026: extended end date, new sub-study on NLR × eosinophils and prognosis, Norwegian Drug Registry, NPR extended to all diagnoses, and the Cause of Death Registry listed explicitly.
+- [ ] Request an updated Cause of Death Registry extract (current linkage ends 31.12.2021).
+- [ ] Obtain discharge date and level of care (inpatient, day case, outpatient) from NPR, and clarify the end date of the NPR data.
+- [ ] Emigration date from the National Population Register for censoring.
+- [ ] Was the skip logic for CAT and mMRC followed in practice, and how many in the normal spirometry group answered?
+- [ ] Lock the a priori cut-offs for NLR and eosinophils.
+- [ ] Count events per outcome in the COPD group to judge how many parameters the models can support.
+- [ ] External validation: is OLIN an option?

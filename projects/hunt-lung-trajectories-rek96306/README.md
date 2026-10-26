@@ -2,26 +2,26 @@
 
 | | |
 | --- | --- |
-| REK | 96306 |
-| Prosjektleder | Sigrid Anna Aalberg Vikjord |
-| Periode | 02.03.2020 – 31.12.2026, forlengelse til 31.12.2030 søkt oktober 2026 |
-| Datakilder | HUNT2–4, Ung-HUNT1–3, MFR, NPR, Dødsårsaksregisteret, Legemiddelregisteret (søkt), SSB, NILU, sykehusdata |
+| REK (ethics approval) | 96306 |
+| Principal investigator | Sigrid Anna Aalberg Vikjord |
+| Period | 02.03.2020 – 31.12.2026; extension to 31.12.2030 applied for in October 2026 |
+| Data sources | HUNT2–4, Young-HUNT1–3, Medical Birth Registry, Norwegian Patient Registry, Cause of Death Registry, Norwegian Drug Registry (Legemiddelregisteret, applied for), Statistics Norway, Norwegian Institute for Air Research, hospital records |
 
-## Innhold
+## Contents
 
-- `protocol/` – gjeldende protokoll (oktober 2026). `_tracked-changes.docx` viser endringer fra versjonen fra oktober 2023, `_clean.docx` og `.md` er ren versjon.
-- `rek/` – endringsmeldinger til REK.
-- `analysis-plans/` – analyseplaner per delstudie, skrevet før analysene starter.
-- `scripts/` – analysekode.
+- `protocol/` – current protocol (October 2026). `_tracked-changes.docx` shows changes from the October 2023 version; `_clean.docx` and `.md` are the clean version.
+- `rek/` – amendments submitted to REK.
+- `analysis-plans/` – analysis plans per sub-study, written before the analyses start.
+- `scripts/` – analysis code.
 
-## Delstudier
+## Sub-studies
 
-| Delstudie | Analyseplan | Status |
+| Sub-study | Analysis plan | Status |
 | --- | --- | --- |
-| Lungefunksjonsbaner og catch-up | – | Manus innsendt |
-| Blodeosinofiler og NLR som prediktorer for innleggelse og død (mål 3) | [analysis-plans/nlr-eosinophils-prognosis-hunt4.md](analysis-plans/nlr-eosinophils-prognosis-hunt4.md) | Planlegging |
+| Lung function trajectories and catch-up | – | Manuscript submitted |
+| Blood eosinophils and NLR as predictors of hospitalisation and death (aim 3) | [analysis-plans/nlr-eosinophils-prognosis-hunt4.md](analysis-plans/nlr-eosinophils-prognosis-hunt4.md) | Planning |
 
-## Endringslogg
+## Change log
 
-- 2026-10: Endringsmelding til REK – forlengelse til 31.12.2030, nytt mål 3 (blodbiomarkører), utvidede registerkoblinger inkl. Legemiddelregisteret.
-- 2023-10: Endringsmelding – forlengelse til 31.12.2026, utvidelse til voksne lungefunksjonsbaner og harde endepunkter.
+- 2026-10: Amendment submitted to REK – extension to 31.12.2030, new aim 3 (blood biomarkers), extended registry linkages including the Norwegian Drug Registry.
+- 2023-10: Amendment – extension to 31.12.2026, extension to adult lung function trajectories and hard endpoints.

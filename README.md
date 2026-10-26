@@ -1,37 +1,37 @@
 # BREATHE Clinical Academic Group
 
-Åpent arkiv for BREATHE CAG (NTNU / St. Olavs hospital): forskningsprotokoller, analyseplaner, søknader, REK-dokumentasjon og analysekode. Formålet er åpenhet om hva vi planlegger og gjør, og at analyser kan etterprøves.
+Open archive of the BREATHE Clinical Academic Group (NTNU / St. Olavs hospital, Trondheim University Hospital, Norway): research protocols, analysis plans, grant applications, ethics (REK) documentation and analysis code for our research on asthma and COPD. The aim is transparency about what we plan and do, and that our analyses can be scrutinised and reproduced.
 
-**Repositoriet inneholder aldri data.** Individdata fra HUNT, helseregistre eller pasientjournal oppbevares kun på godkjente sikre plattformer i tråd med REK-godkjenning og avtaler med dataeierne. Se [Hva som ikke skal hit](#hva-som-ikke-skal-hit).
+**This repository never contains data.** Individual-level data from HUNT, health registries or medical records are kept only on approved secure platforms, in line with the ethics approvals and agreements with the data owners. See [What does not belong here](#what-does-not-belong-here).
 
-## Struktur
+## Structure
 
 ```
 projects/
-  <prosjekt>/
-    README.md           Kort om prosjektet, REK-nummer, periode og status
-    protocol/           Forskningsprotokoll (sporede endringer, ren versjon, markdown)
-    rek/                Søknader og endringsmeldinger til REK
-    analysis-plans/     Forhåndsregistrerte analyseplaner per delstudie
-    scripts/            Analysekode
-templates/              Maler som går igjen på tvers av prosjekter
+  <project>/
+    README.md           Short project summary: ethics approval number, period and status
+    protocol/           Research protocol (tracked changes, clean version, markdown)
+    rek/                Applications and amendments to the Regional Committee for Medical and Health Research Ethics (REK)
+    analysis-plans/     Pre-specified analysis plans per sub-study
+    scripts/            Analysis code
+templates/              Templates shared across projects
 ```
 
-## Prosjekter
+## Projects
 
-| Prosjekt | REK | Periode | Status |
+| Project | REK | Period | Status |
 | --- | --- | --- | --- |
-| [Lungefunksjonsbaner fra ungdom til voksen alder – HUNT Lunge](projects/hunt-lung-trajectories-rek96306/) | 96306 | 2020 – 2030 (forlengelse søkt) | Pågår |
+| [Lung function trajectories from adolescence to adulthood – the HUNT Lung Study](projects/hunt-lung-trajectories-rek96306/) | 96306 | 2020–2030 (extension applied for) | Ongoing |
 
-## Hva som ikke skal hit
+## What does not belong here
 
-- Individdata, også pseudonymiserte og aggregerte tabeller med små celler (n < 5)
-- Koblingsnøkler, PID-lister, filbaner til sikre soner
-- Personopplysninger om andre (CV-er, signaturer, kontaktinformasjon) uten samtykke
-- Utkast som ikke er klarert med medforfattere eller samarbeidspartnere
+- Individual-level data, including pseudonymised data and aggregated tables with small cells (n < 5)
+- Linkage keys, project ID lists, or file paths to secure servers
+- Personal information about others (CVs, signatures, contact details) without their consent
+- Drafts that have not been cleared with co-authors or collaborators
 
-`.gitignore` blokkerer vanlige dataformater, men sjekk alltid selv før du committer.
+`.gitignore` blocks common data formats, but always check before you commit.
 
-## Kontakt
+## Contact
 
-Sigrid Anna Aalberg Vikjord, NTNU / St. Olavs hospital
+Sigrid Anna Aalberg Vikjord, Department of Thoracic and Occupational Medicine, St. Olavs hospital, Trondheim University Hospital, and Norwegian University of Science and Technology (NTNU), Trondheim, Norway

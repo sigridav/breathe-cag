@@ -1,4 +1,4 @@
-# Aldri data i dette repoet
+# Never any data in this repository
 data/
 raw/
 derived/
@@ -20,7 +20,7 @@ results/
 *.db
 *.log
 
-# Systemfiler
+# System files
 .DS_Store
 Thumbs.db
 ~$*

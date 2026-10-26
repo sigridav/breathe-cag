@@ -1,3 +1,3 @@
-# Analysekode
+# Analysis code
 
-Kode legges her per delstudie (`nlr-eosinophils/`, `trajectories/` osv.). Skriptene leser data fra den sikre plattformen via en lokal sti som settes utenfor repoet, aldri hardkodet her. Resultattabeller med celler under n = 5 skal ikke committes.
+Code is added here per sub-study (`nlr-eosinophils/`, `trajectories/`, etc.). Scripts read data from the secure platform via a local path set outside the repository, never hard-coded here. Result tables with cells below n = 5 must not be committed.
