@@ -12,7 +12,6 @@
 - `protocol/` – gjeldende protokoll (oktober 2026). `_tracked-changes.docx` viser endringer fra versjonen fra oktober 2023, `_clean.docx` og `.md` er ren versjon.
 - `rek/` – endringsmeldinger til REK.
 - `analysis-plans/` – analyseplaner per delstudie, skrevet før analysene starter.
-- `registry-linkage/` – variabellister fra Helsedataservice (metadata).
 - `scripts/` – analysekode.
 
 ## Delstudier

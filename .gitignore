@@ -5,7 +5,6 @@ derived/
 output/
 results/
 *.csv
-!**/registry-linkage/*variables*.csv
 *.tsv
 *.dta
 *.sav
