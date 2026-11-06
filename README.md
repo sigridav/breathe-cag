@@ -14,7 +14,8 @@ projects/
     rek/                Applications and amendments to the Regional Committee for Medical and Health Research Ethics (REK)
     analysis-plans/     Pre-specified analysis plans per sub-study
     scripts/            Analysis code
-templates/              Templates shared across projects
+templates/project/      Template for a new project (copy and rename)
+shared/                 Code shared across projects (e.g. Stata programs)
 ```
 
 ## Projects
@@ -34,4 +35,4 @@ templates/              Templates shared across projects
 
 ## Contact
 
-Sigrid Anna Aalberg Vikjord, Department of Thoracic and Occupational Medicine, St. Olavs hospital, Trondheim University Hospital, and Norwegian University of Science and Technology (NTNU), Trondheim, Norway
+Sigrid Anna Aalberg Vikjord, Department of Thoracic Medicine, Clinic of Thoracic and Occupational Medicine and Orkdal Dept. of Internal Medicine, St. Olav's hospital, Trondheim University Hospital, and Norwegian University of Science and Technology (NTNU), Trondheim, Norway
