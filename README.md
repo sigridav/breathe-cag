@@ -7,13 +7,19 @@ Open archive of the BREATHE Clinical Academic Group (NTNU / St. Olavs hospital, 
 ## Structure
 
 ```
-projects/
+projects/               REK-approved projects (one folder per REK approval)
   <project>/
     README.md           Short project summary: ethics approval number, period and status
     protocol/           Research protocol (tracked changes, clean version, markdown)
     rek/                Applications and amendments to the Regional Committee for Medical and Health Research Ethics (REK)
     analysis-plans/     Pre-specified analysis plans per sub-study
     scripts/            Analysis code
+manuscripts/            Manuscripts and analyses not yet linked to a REK folder
+studies/                Clinical studies and cohorts
+registries/             Quality registries (variable lists, codebooks)
+applications/           Grant applications
+tools/                  Digital tools
+outreach/               Books and opinion pieces
 templates/project/      Template for a new project (copy and rename)
 shared/                 Code shared across projects (e.g. Stata programs)
 ```
@@ -29,8 +35,58 @@ shared/                 Code shared across projects (e.g. Stata programs)
 | [Lung function trajectories and radiological phenotypes in obstructive lung disease (HUNT CT LUNG)](projects/hunt-ct-lung-rek819936/) | 819936 | 23.09.2024 – 31.12.2027 | Approved with conditions |
 | [Body mass index and mortality in individuals with and without COPD](projects/bmi-mortality-copd-rek227444/) | 227444 | 15.04.2024 – 15.04.2026 | Approved with conditions |
 | [Is decline in lung function associated with decline in bone mineral density?](projects/lung-function-bone-density-rek120785/) | 120785 | 25.01.2021 – 31.12.2025 | Approved with conditions |
+| [Organisation and funding of acute COPD care: consequences of the proposals in NOU 2026: 12](projects/acute-copd-care-nou-2026-12-rek1055922/) | 1055922 | – | Under REK assessment |
 
-Under REK assessment: *Organisation and funding of acute COPD care: consequences of the proposals in NOU 2026: 12* (1055922, assessment of whether REK approval is required).
+### Manuscripts and analyses (REK reference to be added)
+
+- [Blood eosinophils, FEV1 % predicted and COPD exacerbations (HUNT4 Lung)](manuscripts/eosinophils-ppfev1-copd-exacerbations/)
+- [Gut microbiome and lung function (HUNT4 and SCAPIS)](manuscripts/gut-microbiome-lung-function/)
+- [Non-COVID morbidity and mortality during the pandemic – interrupted time series (HUNT)](manuscripts/hunt-covid-interrupted-time-series/)
+- [Spirometry and medication use around the first COPD diagnosis in Norwegian general practice](manuscripts/copd-diagnosis-general-practice-kuhr/)
+- [Hospital-treated lower respiratory tract infections and lung function decline](manuscripts/lrti-lung-function-decline/)
+- [Adolescent smoking (Young-HUNT) and later lung function](manuscripts/adolescent-smoking-lung-function/)
+- [Height-GaP and lung function](manuscripts/height-gap-lung-function/)
+- [Genome-wide association study of oxygen saturation (SpO2) in HUNT4](manuscripts/spo2-gwas-hunt4/)
+- [Lung function, SpO2 and dementia (HUNT4, age 70+)](manuscripts/lung-function-dementia/)
+- [KCO deficit – a volume-corrected measure of gas transfer](manuscripts/kco-deficit/)
+- [Spirometric curve shapes: artefacts and pathology (mini-review)](manuscripts/spirometry-curve-shapes-review/)
+- [Is there T2-high COPD? (Tidsskriftet)](manuscripts/t2-high-copd/)
+- [Non-treatable traits in COPD](manuscripts/non-treatable-traits-copd/)
+
+### Clinical studies and cohorts
+
+- [NOR-LUNG 1 – de-escalation of treatment in severe T2-high asthma](studies/nor-lung-1/)
+- [CPET before lung cancer surgery – randomised trial](studies/cpet-preoperative-lung-cancer/)
+- [NORTUNE (AsthmaTuner) – St. Olav's site](studies/nortune/)
+- [EOS – immune processes in severe asthma](studies/eos-severe-asthma/)
+- [Prevent ECOPD](studies/prevent-ecopd/)
+- [HUNT5 Lung](studies/hunt5-lung/)
+
+### Registries
+
+- [Norwegian COPD Registry 2.0 (Kolsregisteret 2.0)](registries/copd-registry-2/)
+- [Norwegian Severe Asthma Registry](registries/severe-asthma-registry/)
+
+### Grant applications
+
+- [ERC Starting Grant 2028 – proteomics and lung function](applications/erc-starting-grant-2028/)
+- [FRIPRO Early Career – protein modules predicting incident COPD](applications/fripro-proteogenomics/)
+- [Horizon Europe – AI-based predictive biomarkers (CADSET)](applications/horizon-biomarkers-cadset/)
+- [DESCEND – de-escalation in chronic airway disease (St. Olav's «Kloke valg» call)](applications/descend-wise-choices/)
+- [Using the full information content of pulmonary function tests (Samarbeidsorganet)](applications/so-pulmonary-physiology/)
+- [NTNU Health and Life Sciences interdisciplinary team (AMR)](applications/ntnu-hlv-team-amr/)
+
+### Tools
+
+- [ILD-MDT Navigator](tools/ild-mdt-navigator/)
+- [AsthmaTrack](tools/asthmatrack/)
+- [pustebedre.no](tools/pustebedre/)
+
+### Books and outreach
+
+- [Statistics in health sciences – for dummies](outreach/statistics-book/)
+- [Pulmonary function test interpretation – for dummies](outreach/pulmonary-function-interpretation-book/)
+- [Opinion pieces](outreach/opinion-pieces/)
 
 ## What does not belong here
 
