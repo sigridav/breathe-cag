@@ -23,6 +23,14 @@ shared/                 Code shared across projects (e.g. Stata programs)
 | Project | REK | Period | Status |
 | --- | --- | --- | --- |
 | [Lung function trajectories from adolescence to adulthood – the HUNT Lung Study](projects/hunt-lung-trajectories-rek96306/) | 96306 | 2020–2030 (extension applied for) | Ongoing |
+| [Circulating inflammatory protein networks and the development of COPD](projects/inflammatory-proteins-copd-rek1022757/) | 1022757 | 01.07.2026 – 31.12.2029 | Approved with conditions |
+| [Anosmia and peripheral eosinophilia as early biomarkers of incident asthma and CRSwNP](projects/anosmia-eosinophilia-asthma-crswnp-rek999556/) | 999556 | 01.05.2026 – 01.05.2029 | Approved with conditions |
+| [Dietary patterns and longitudinal lung function](projects/dietary-patterns-lung-function-rek825816/) | 825816 | 01.11.2024 – 31.12.2026 | Approved with conditions |
+| [Lung function trajectories and radiological phenotypes in obstructive lung disease (HUNT CT LUNG)](projects/hunt-ct-lung-rek819936/) | 819936 | 23.09.2024 – 31.12.2027 | Approved with conditions |
+| [Body mass index and mortality in individuals with and without COPD](projects/bmi-mortality-copd-rek227444/) | 227444 | 15.04.2024 – 15.04.2026 | Approved with conditions |
+| [Is decline in lung function associated with decline in bone mineral density?](projects/lung-function-bone-density-rek120785/) | 120785 | 25.01.2021 – 31.12.2025 | Approved with conditions |
+
+Under REK assessment: *Organisation and funding of acute COPD care: consequences of the proposals in NOU 2026: 12* (1055922, assessment of whether REK approval is required).
 
 ## What does not belong here
 
