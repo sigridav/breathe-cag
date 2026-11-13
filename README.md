@@ -43,6 +43,10 @@ shared/                 Code shared across projects (e.g. Stata programs)
 - [Prevent ECOPD](studies/prevent-ecopd/)
 - [HUNT5 Lung](studies/hunt5-lung/)
 
+### Shared resources
+
+- [Lung-relevant variables in the HUNT Study (HUNT1–4, HUNT South, Young-HUNT1–4)](shared/hunt-lung-variables/)
+
 ### Registries
 
 - [Norwegian COPD Registry 2.0 (Kolsregisteret 2.0)](registries/copd-registry-2/)
